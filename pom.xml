@@ -41,18 +41,17 @@
 		For Commiting mvn -Dmessage="Updated using maven" scm:checkin For updating 
 		mvn scm:update -->
 	<!--
-	<scm>
-		<connection>scm:git:https://github.com/MithunTechnologiesDevOps/maven-standalone-application</connection>
-		<developerConnection>scm:git:https://github.com/MithunTechnologiesDevOps/maven-standalone-application</developerConnection>
-		<tag>HEAD</tag>
-		<url>https://github.com/MithunTechnologiesDevOps/maven-standalone-application</url>
-	</scm>
+        <scm>
+                <connection>scm:git:git@github.com:MithunTechnologiesDevOps/maven-standalone-application</connection>
+                <developerConnection>scm:git:git@github.com:MithunTechnologiesDevOps/maven-standalone-application</developerConnection>
+                <tag>HEAD</tag>
+                <url>git@github.com:MithunTechnologiesDevOps/maven-standalone-application.git</url>
+        </scm>
 
-	<issueManagement>
-		<system>GitHub</system>
-		<url>https://github.com/MithunTechnologiesDevOps/maven-standalone-application/issues</url>
-	</issueManagement>
-
+        <issueManagement>
+                <system>GitHub</system>
+                <url>git@github.com:MithunTechnologiesDevOps/maven-standalone-application/issues</url>
+        </issueManagement>
 	-->
 	<build>
 	  <plugins>
